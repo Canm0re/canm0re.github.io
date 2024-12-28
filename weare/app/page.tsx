@@ -20,16 +20,16 @@ import CTAButton from '@/components/CTAButton'
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-background text-foreground">
+    <div className="flex flex-col min-h-screen">
       <main className="flex-grow">
         <Hero />
         <Story />
-        <div className="text-center py-8 bg-secondary">
+        <div className="text-center py-8">
           <CTAButton text="Start Your Learning Journey" href="#pricing" />
         </div>
         <Challenges />
         <Benefits />
-        <div className="text-center py-8 bg-secondary">
+        <div className="text-center py-8">
           <CTAButton text="Discover Our Program" href="#program-structure" />
         </div>
         <CostIntroduction />
@@ -37,12 +37,12 @@ export default function Home() {
         <MembershipIncludes />
         <Guarantee />
         <Results />
-        <div className="text-center py-8 bg-secondary">
+        <div className="text-center py-8">
           <CTAButton text="Join Our Community" href="#enroll" />
         </div>
         <ExpandedTestimonials />
         <ProgramStructure />
-        <div className="text-center py-8 bg-secondary">
+        <div className="text-center py-8">
           <CTAButton text="Start Your Transformation" href="#enroll" />
         </div>
         <Applicability />

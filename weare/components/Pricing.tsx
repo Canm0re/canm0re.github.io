@@ -20,25 +20,25 @@ const plans = [
 
 export default function Pricing() {
   return (
-    <section className="py-16 bg-secondary">
+    <section className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center text-primary">Program Pricing</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">Program Pricing</h2>
         <p className="text-center mb-8">Next Cohort Starting 28th Dec 11:59 PM PST</p>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {plans.map((plan, index) => (
-            <Card key={index} className="bg-background">
+            <Card key={index}>
               <CardHeader>
                 <CardTitle>{plan.name}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-4xl font-bold mb-4 text-primary">{plan.price}</p>
+                <p className="text-4xl font-bold mb-4">{plan.price}</p>
                 <p className="mb-4">{plan.description}</p>
                 <ul className="mb-6">
                   {plan.features.map((feature, i) => (
                     <li key={i} className="mb-2">• {feature}</li>
                   ))}
                 </ul>
-                <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+                <Button asChild className="w-full">
                   <a href={plan.link}>Enrol {plan.name}</a>
                 </Button>
               </CardContent>

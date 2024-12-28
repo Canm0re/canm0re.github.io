@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import MobileStagesList from "./MobileStagesList"
 
 const stages = [
   {
@@ -26,12 +27,12 @@ const stages = [
 
 export default function ProgramStructure() {
   return (
-    <section className="py-16 bg-secondary">
+    <section className="py-16">
       <div className="container mx-auto px-4 max-w-full overflow-hidden">
-        <h2 className="text-3xl font-bold mb-8 text-center text-primary">What to expect as you work through the program...</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">What to expect as you work through the program...</h2>
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-primary">First, learn the theory and tools to save time and get better grades.</h3>
+            <h3 className="text-xl font-bold mb-4">First, learn the theory and tools to save time and get better grades.</h3>
             <p className="mb-4"><em>About 2-3 hours per week</em></p>
             <ul className="list-disc list-inside space-y-2">
               <li>Understand how the brain likes to learn (based on the research).</li>
@@ -39,35 +40,40 @@ export default function ProgramStructure() {
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-4 text-primary">Then, apply what you learned and get feedback to improve faster.</h3>
+            <h3 className="text-xl font-bold mb-4">Then, apply what you learned and get feedback to improve faster.</h3>
             <ul className="list-disc list-inside space-y-2">
               <li>Practice the techniques while studying with our step-by-step instructions.</li>
               <li>Improve faster by getting support, feedback and guidance on your work.</li>
             </ul>
           </div>
         </div>
-        <h3 className="text-2xl font-bold mb-4 text-center text-primary">The road to becoming a highly efficient learner...</h3>
-        <Tabs defaultValue="stage0" className="w-full">
-          <TabsList className="flex flex-wrap justify-center mb-4">
+        <h3 className="text-2xl font-bold mb-4 text-center">The road to becoming a highly efficient learner...</h3>
+        <div className="md:hidden">
+          <MobileStagesList stages={stages} />
+        </div>
+        <div className="hidden md:block">
+          <Tabs defaultValue="stage0" className="w-full">
+            <TabsList className="flex flex-wrap justify-center mb-4">
+              {stages.map((stage, index) => (
+                <TabsTrigger key={index} value={`stage${index}`} className="mb-2">
+                  {stage.title.split(':')[0]}
+                </TabsTrigger>
+              ))}
+            </TabsList>
             {stages.map((stage, index) => (
-              <TabsTrigger key={index} value={`stage${index}`} className="mb-2">
-                {stage.title.split(':')[0]}
-              </TabsTrigger>
+              <TabsContent key={index} value={`stage${index}`}>
+                <Card>
+                  <CardHeader>
+                    <CardTitle>{stage.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>{stage.content}</p>
+                  </CardContent>
+                </Card>
+              </TabsContent>
             ))}
-          </TabsList>
-          {stages.map((stage, index) => (
-            <TabsContent key={index} value={`stage${index}`}>
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-primary">{stage.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p>{stage.content}</p>
-                </CardContent>
-              </Card>
-            </TabsContent>
-          ))}
-        </Tabs>
+          </Tabs>
+        </div>
       </div>
     </section>
   )

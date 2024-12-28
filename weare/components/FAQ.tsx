@@ -34,20 +34,20 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section className="py-16 bg-background">
+    <section className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center text-primary">Frequently Asked Questions</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
         <Accordion type="single" collapsible className="max-w-2xl mx-auto">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-primary">{faq.question}</AccordionTrigger>
+              <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
               <AccordionContent>{faq.answer}</AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>
         <div className="mt-8 text-center">
           <h3 className="text-xl font-bold mb-4">Still have questions?</h3>
-          <p>Send us your question to <a href="mailto:help@icanstudy.com" className="text-primary hover:underline">help@icanstudy.com</a> and we'll do our best to help 😊</p>
+          <p>Send us your question to <a href="mailto:help@icanstudy.com" className="hover:underline">help@icanstudy.com</a> and we'll do our best to help 😊</p>
         </div>
       </div>
     </section>

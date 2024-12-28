@@ -9,7 +9,7 @@ interface CTAButtonProps {
 
 export default function CTAButton({ text, href, className = "" }: CTAButtonProps) {
   return (
-    <Button asChild className={`bg-primary text-primary-foreground hover:bg-primary/90 ${className}`}>
+    <Button asChild className={className}>
       <Link href={href}>{text}</Link>
     </Button>
   )

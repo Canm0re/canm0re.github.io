@@ -29,14 +29,14 @@ const challenges = [
 
 export default function Challenges() {
   return (
-    <section className="py-16 bg-secondary">
+    <section className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center text-primary">Why do so few students actually succeed with their studies?</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">Why do so few students actually succeed with their studies?</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {challenges.map((challenge, index) => (
-            <Card key={index} className="bg-background">
+            <Card key={index}>
               <CardHeader>
-                <CardTitle className="text-primary">{challenge.title}</CardTitle>
+                <CardTitle>{challenge.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>{challenge.description}</p>
