@@ -21,7 +21,7 @@ export function CTA() {
           Join the Nord Community now and start your journey to academic excellence. With our proven methods, expert guidance, and supportive community, you'll be amazed at what you can achieve.
         </p>
         <p className="mt-2 text-xl font-semibold text-white">
-          Remember, only 10 spots are available for Dubai students!
+          Remember, only 10 spots are available!
         </p>
         <a
           href="#pricing"
