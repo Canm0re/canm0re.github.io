@@ -21,7 +21,9 @@ export function Hero() {
                 (10 Spots Left! for Dubai Students only)
               </p>
               <h3 className="mt-3 text-xl text-gray-700">
-                Transform Academic Chaos into effortles Calm
+              Save hours every week on studying.
+              Achieve more with less effort
+
               </h3>
             </div>
           </main>
@@ -30,9 +32,9 @@ export function Hero() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="/placeholder.svg?height=600&width=800"
+          src="https://6s32vsspft6xcd13.public.blob.vercel-storage.com/head%20stencil-W1B06DLAzIjQlgYMxzVSjeaIAGsVtx.jpg"
           alt="Students studying"
-          title="Image specifications: 800x600px, high-quality JPEG or PNG, showing diverse students in a study environment"
+          title="Image specifications: 800x600px, high-quality JPEG"
         />
       </div>
     </div>

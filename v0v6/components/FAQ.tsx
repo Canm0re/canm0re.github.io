@@ -4,91 +4,33 @@ import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid'
 
 const faqs = [
   {
-    question: "What kind of activities will I get the chance to join in the community?",
+    question: "Who is this for?",
     answer: (
       <div className="space-y-4">
-        <p className="text-base text-gray-500">We have a <strong>pre-built library of content</strong> inside, covering everything from advanced note-taking techniques to stress management systems. But that's just the beginning.</p>
-        
-        <p className="text-base text-gray-500 font-bold">Here's what else you'll get:</p>
+        <p className="text-base text-black-500 font-bold">This Is NOT A Good Fit For:</p>
         <ul className="list-disc pl-5 space-y-2">
-          <li className="text-base text-gray-500"><strong>Weekly live calls:</strong> Get personalized guidance, ask questions, and see real-time demonstrations of study techniques.</li>
-          <li className="text-base text-gray-500"><strong>Ongoing discussions:</strong> Connect with other members, share tips, and troubleshoot challenges together.</li>
-          <li className="text-base text-gray-500"><strong>Monthly cohorts:</strong> Dive deep into specific topics with focused, hands-on learning.</li>
+          <li className="text-base text-gray-500"><strong>❌For those not willing to put in the time and effort....</strong></li>
+          <li className="text-base text-gray-500"> ❌For those who think this will change their lives overnight. <strong>It won't</strong>.</li>
+          <li className="text-base text-gray-500">❌​For anyone who expects to learn everything in 3 days and leave. <strong>This is a process. And it will take me time to transfer the information from my head to yours.</strong></li>
+          <li className="text-base text-gray-500">❌For those looking for a magic bullet.</li>
+          <li className="text-base text-gray-500"><strong>This Is For You Only If You're The Early Adopter Type</strong></li>
         </ul>
-
-        <p className="text-base text-gray-500 font-bold">Here are some examples of monthly cohorts we'll be running:</p>
-        <ol className="list-decimal pl-5 space-y-4">
-          <li className="text-base text-gray-500">
-            <strong>"Mastering Memory: How to Retain Anything in Half the Time"</strong>
-            <ul className="list-disc pl-5 mt-2">
-              <li>Learn advanced memory techniques like the <em>Memory Palace</em> and <em>Spaced Repetition</em>.</li>
-              <li>Apply these techniques to your current subjects and see immediate results.</li>
-            </ul>
-          </li>
-          <li className="text-base text-gray-500">
-            <strong>"The Procrastination Killer: Build Focus and Crush Deadlines"</strong>
-            <ul className="list-disc pl-5 mt-2">
-              <li>Discover the <em>V-ABC Framework</em> to overcome distractions and stay on track.</li>
-              <li>Create a personalized productivity plan that works for your schedule.</li>
-            </ul>
-          </li>
-          <li className="text-base text-gray-500">
-            <strong>"Exam Bootcamp: Ace Your Next Test with Confidence"</strong>
-            <ul className="list-disc pl-5 mt-2">
-              <li>Learn how to <em>strategically review material</em> and <em>manage exam stress</em>.</li>
-              <li>Practice mock exams and get feedback from peers and coaches.</li>
-            </ul>
-          </li>
-          <li className="text-base text-gray-500">
-            <strong>"Time Management for Students: Balance School, Life, and Fun"</strong>
-            <ul className="list-disc pl-5 mt-2">
-              <li>Master tools like the <em>Eisenhower Matrix</em> and <em>Time Blocking</em>.</li>
-              <li>Build a schedule that gives you more free time while boosting your grades.</li>
-            </ul>
-          </li>
-          <li className="text-base text-gray-500">
-            <strong>"Note-Taking Ninja: Transform Your Notes into a Learning Powerhouse"</strong>
-            <ul className="list-disc pl-5 mt-2">
-              <li>Explore advanced methods like <em>Mind Mapping</em> and <em>Cornell Notes</em>.</li>
-              <li>Turn your notes into a study resource that actually works.</li>
-            </ul>
-          </li>
-          <li className="text-base text-gray-500">
-            <strong>"The Science of Motivation: Stay Driven Even When It's Tough"</strong>
-            <ul className="list-disc pl-5 mt-2">
-              <li>Learn how to <em>hack your brain's reward system</em> to stay motivated.</li>
-              <li>Create a personalized motivation plan for long-term success.</li>
-            </ul>
-          </li>
-        </ol>
-
-        <p className="text-base text-gray-500 font-bold">And here's the best part: You get to shape the community.</p>
-        <ul className="list-disc pl-5 space-y-2">
-          <li className="text-base text-gray-500">Suggest new cohort topics.</li>
-          <li className="text-base text-gray-500">Vote on what we cover next.</li>
-          <li className="text-base text-gray-500">Collaborate with other members to create resources and tools.</li>
-        </ul>
-
-        <p className="text-base text-gray-500 font-bold">This isn't just a program—it's a living, breathing community designed to help you succeed.</p>
       </div>
     )
   },
   {
-    question: "Is there a money-back guarantee?",
-    answer: "No. We're confident in the value we provide, and our results speak for themselves."
+    question: "Is there a reason i should NOT join?",
+    answer: (
+      <div className="space-y-4">
+        <ol className="list-disc pl-5 space-y-2">
+          <li className="text-base text-gray-500">1. The community is on a new platform. We've NEVER tested it before. YOU are the guinea pig.</li>
+          <li className="text-base text-gray-500"> 2. There's NOTHING happening inside except for a library of content and a couple of weekly calls with this guy named Awab. Bummer right? And also a couple of exercises. So what...?</li>
+          <li className="text-base text-gray-500">3. It's $47 PER month. Not a one off. $47. Every-single-month. Can you imagine?</li>
+          <li className="text-base text-gray-500">4. There are only 10 spots. You're probably not even gonna be able to get in on time.</li>
+        </ol>
+      </div>
+    )
   },
-  {
-    question: "Is there a difference between the subscription and 12-month option?",
-    answer: "The only difference currently is how much it costs. You get 56.2% off when paying for 12 months, and you get 53% off when subscribing."
-  },
-  {
-    question: "What does the community actually look like inside?",
-    answer: "Weekly live coaching, a library of resources, and personalized support to help you succeed."
-  },
-  {
-    question: "Can I cancel my subscription?",
-    answer: "Yes, you can cancel anytime. But trust us—once you see the results, you won't want to."
-  }
 ]
 
 export function FAQ() {

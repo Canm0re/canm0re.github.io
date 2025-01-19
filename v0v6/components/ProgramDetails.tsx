@@ -5,43 +5,26 @@ export function ProgramDetails() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-extrabold text-gray-900 mb-8">The Nord Program is a science-backed system that helps you:</h2>
           <ul className="space-y-4 text-lg mb-12">
-            <li><strong>Master Your Study Habits:</strong> Access our comprehensive curriculum designed to transform your approach to learning.</li>
-            <li><strong>High-Yield Study Techniques:</strong> Learn how to effectively manage cognitive load, optimize your note-taking, and implement spaced retrieval practices.</li>
+            <li><strong>Master Your Study Habits:</strong> Transform your learning with our comprehensive curriculum.</li>
+            <li><strong>High-Yield Study Techniques:</strong> Manage cognitive load, optimize note-taking, and practice spaced retrieval.</li>
             <li><strong>Instant Access to Kickstart Modules:</strong> Dive into our extensive library of materials, covering everything from procrastination management to advanced memory techniques.</li>
             <li><strong>Weekly Live Coaching:</strong> Get personalized guidance and support to stay on track.</li>
           </ul>
 
           <h3 className="text-2xl font-bold text-gray-900 mb-4">I have resources about most topics you could imagine:</h3>
           <ul className="list-disc pl-5 space-y-2 text-lg mb-12">
-            <li>The Study Mirror: See If You're Ready For Exams Without Guessing</li>
-            <li>How to Transform Academic Chaos into smooth and effortless Calm Without Stress Even if You're Drowning in Deadlines</li>
+            <li>The Study Mirror: Check If You're Ready For Exams.</li>
+            <li>How to Transform Academic Chaos into smooth and effortless Calm Without Stress Even if You're Drowning in Deadlines.</li>
             <li>Reduce procrastination (for good)</li>
-            <li>How to <em>hyper-personalize</em> your learning system for any situation and challenge</li>
-            <li>How to use advanced note-taking methods that drive <em>higher-order learning</em></li>
+            <li>How to <em>hyper-personalize</em> your learning system for any situation and challenge.</li>
+            <li>Advanced note-taking methods that drive <em>higher-order learning</em></li>
             <li>High-pressure <em>time management</em> and <em>habit creation systems</em> to perform at your peak when everyone else struggles</li>
             <li>Advanced <em>planning, motivation and stress management systems</em> that can withstand the demands of the most difficult and competitive exams and careers.</li>
-            <li>Learner types</li>
-            <li>And more...</li>
+            <li>Learner type quiz (more on this later)</li>
           </ul>
 
           <p className="text-lg text-gray-700 mb-6">
-            I have a ton of those. And yet... This was not enough. People wanted more and more and more. 
-            ... And I also wanted to give more. I enjoy sharing and teaching (my dad is a teacher. Can you blame me?)
-          </p>
-          <p className="text-xl font-bold text-gray-900 mb-6">
-            And now for the first time ever... You can get more. And I can give you more.
-          </p>
-
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">I Found A Solution For You To Get More Direct Access To Me Without It Costing You An Arm & A Leg:</h3>
-          <p className="text-lg text-gray-700 mb-6">
-            You see... <strong>The only way</strong> to get access to me up until this point was one of two ways:
-          </p>
-          <ol className="list-decimal pl-5 space-y-2 text-lg mb-6">
-            <li>Join my cohort which was $2,000.</li>
-            <li>Buy my one-on-one time for $5,000/mo.</li>
-          </ol>
-          <p className="text-lg text-gray-700 mb-6">
-            And neither is an option right now. There are no cohorts. I'm not taking on any more one-on-one clients.
+           Even with all this, people wanted more. And I wanted to give more. I love sharing and teaching (my dad is a teacher—can you blame me?).
           </p>
           <p className="text-lg font-semibold text-gray-900 mb-6">
             <u>So if you want to learn more directly from me...</u>
@@ -108,7 +91,7 @@ export function ProgramDetails() {
             And then coming to my DMs and complaining about not being able to get the grades they used to get...
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            And I get it. It stinks. And is super demotivating. I've been there... And that's why when you join the Nord Community today?
+            And I get it. It stinks. And is super demotivating. I've been there... And that's why when you join the Nord Community today
           </p>
           <p className="text-xl font-bold text-gray-900 mb-6">
             You get the key that unlocks the only skill you need to BOTH get good grades and have time to live a fun life.
@@ -117,10 +100,10 @@ export function ProgramDetails() {
           <h3 className="text-2xl font-bold text-gray-900 mb-4">You Get The Learning How to Learn Course For FREE.</h3>
           
           <img 
-            src="/placeholder.svg?height=400&width=800" 
+            src="https://6s32vsspft6xcd13.public.blob.vercel-storage.com/all-these-DAAN8KYu0zUq8I19v8V2WFIEv5oFXy.png" 
             alt="Learning How to Learn Course" 
             className="w-full mb-6"
-            title="Image specifications: 800x400px, high-quality JPEG or PNG, showcasing course materials or students engaged in learning"
+            title="Image specifications: 800x400px, high-quality JPEG showcasing course materials"
           />
 
           <p className="text-lg text-gray-700 mb-6">
@@ -147,7 +130,7 @@ export function ProgramDetails() {
           <ul className="list-disc pl-5 space-y-2 text-lg mb-6">
             <li>Walking into exams <strong>confident</strong> and <strong>prepared</strong>, knowing you've mastered the material.</li>
             <li>Having <strong>more free time</strong> to hang out with friends, pursue hobbies, or just relax.</li>
-            <li>Seeing your grades <strong>skyrocket</strong> while your stress levels <strong>plummet</strong>.</li>
+            <li>Seeing your grades <strong>skyrocket</strong> while your stress levels <strong>drop</strong>.</li>
           </ul>
           <p className="text-xl font-bold text-gray-900 mb-6">
             That's the power of the Nord Program.
@@ -181,7 +164,7 @@ export function ProgramDetails() {
             <li>Conversations...</li>
           </ul>
           <p className="text-xl font-bold text-gray-900 mb-6">
-            <strong>... Where YOU tell US what you want us to build next.</strong>
+            <strong>... Where YOU tell US what you want next.</strong>
           </p>
         </div>
       </div>

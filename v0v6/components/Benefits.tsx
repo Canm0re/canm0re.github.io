@@ -6,7 +6,7 @@ export function Benefits() {
           <div className="lg:text-center">
             <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Benefits</h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Why Choose the Nord Program?
+              Transform Academic Chaos into effortles Calm
             </p>
           </div>
 
