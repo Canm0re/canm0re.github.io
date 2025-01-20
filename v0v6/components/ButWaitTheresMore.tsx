@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react';
+import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 
 export function ButWaitTheresMore() {
   return (
@@ -31,12 +32,40 @@ export function ButWaitTheresMore() {
 
             <h4 className="text-xl font-bold text-gray-900 mt-8 mb-4">Why This Matters:</h4>
             <p>Most students fall into one of four Learner Types:</p>
-            <ul className="list-disc pl-5 space-y-2">
-              <li><strong>The Unchained:</strong> Limited by mindset, but once they break free, they experience rapid growth.</li>
-              <li><strong>The Sprout:</strong> High growth mindset but low deep processing and self-regulation—they need to build strong foundations.</li>
-              <li><strong>The Trooper:</strong> High self-regulation but limited by deep processing—they need to refine their cognitive habits.</li>
-              <li><strong>The Karp:</strong> High deep processing but low self-regulation—they're like Magikarp waiting to evolve into Gyarados.</li>
-            </ul>
+            <div className="my-8">
+              <AnimatedTestimonials
+                testimonials={[
+                  {
+                    quote: "Limited by mindset, but once they break free, they experience rapid growth. These learners often have untapped potential waiting to be unleashed through mindset transformation.",
+                    name: "The Unchained",
+                    designation: "Mindset-Limited Learner",
+                    src: "https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    transformation: "Break free from limiting beliefs and unlock rapid growth. You'll discover how to transform your mindset and achieve unprecedented success in your studies.",
+                  },
+                  {
+                    quote: "High growth mindset but low deep processing and self-regulation—they need to build strong foundations. With the right guidance, they can transform their potential into consistent results.",
+                    name: "The Sprout",
+                    designation: "Growth-Minded Learner",
+                    src: "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    transformation: "Build strong foundations with proven techniques for deep processing and self-regulation. Turn your growth mindset into tangible academic success.",
+                  },
+                  {
+                    quote: "High self-regulation but limited by deep processing—they need to refine their cognitive habits. These learners are disciplined but need to develop deeper understanding strategies.",
+                    name: "The Trooper",
+                    designation: "Self-Regulated Learner",
+                    src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2084&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    transformation: "Refine your cognitive habits to get the most out of your study methods. Learn advanced techniques to deepen your understanding while maintaining your disciplined approach.",
+                  },
+                  {
+                    quote: "High deep processing but low self-regulation—they're like Magikarp waiting to evolve into Gyarados. These learners have great insight but need structure to reach their full potential.",
+                    name: "The Karp",
+                    designation: "Deep-Processing Learner",
+                    src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    transformation: "Evolve into your full potential by mastering self-regulation and retrieval practice. Transform your deep insights into consistent academic excellence.",
+                  },
+                ]}
+              />
+            </div>
 
             <p className="font-bold">Here's the kicker:</p>
             <p>If you're using methods that don't align with your Learner Type, you're fighting an uphill battle. But when you match your study techniques to your type, everything becomes easier.</p>
@@ -48,14 +77,6 @@ export function ButWaitTheresMore() {
               <li>Identify your unique Learner Type—so you can stop wasting time on methods that don't work for you.</li>
               <li>Give you a personalized roadmap—tailored to your strengths and weaknesses, so you can study smarter, not harder.</li>
               <li>Help you achieve faster results—because when you're working with your brain, not against it, everything becomes easier.</li>
-            </ul>
-
-            <h4 className="text-xl font-bold text-gray-900 mt-8 mb-4">Here's What Happens When You Discover Your Learner Type:</h4>
-            <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Unchained Learners:</strong> Break free from limiting beliefs and unlock rapid growth.</li>
-              <li><strong>Sprouts:</strong> Build strong foundations with proven techniques for deep processing and self-regulation.</li>
-              <li><strong>Troopers:</strong> Refine your cognitive habits to get the most out of your study methods.</li>
-              <li><strong>Karps:</strong> Evolve into your full potential by mastering self-regulation and retrieval practice.</li>
             </ul>
 
             <h4 className="text-xl font-bold text-gray-900 mt-8 mb-4">Why This Works:</h4>
