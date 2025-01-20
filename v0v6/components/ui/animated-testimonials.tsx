@@ -1,7 +1,7 @@
 "use client";
 
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
-import { motion, AnimatePresence, useAnimation } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { FlipCard } from "./flip-card";
@@ -22,7 +22,6 @@ export const AnimatedTestimonials = ({
   className?: string;
 }) => {
   const [active, setActive] = useState(0);
-  const controls = useAnimation();
   const swipeConfidenceThreshold = 10000;
   const swipePower = (offset: number, velocity: number) => {
     return Math.abs(offset) * velocity;
