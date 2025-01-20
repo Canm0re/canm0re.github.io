@@ -13,8 +13,8 @@ export function ProgramDetails() {
 
           <h3 className="text-2xl font-bold text-gray-900 mb-4">I have resources about most topics you could imagine:</h3>
           <ul className="list-disc pl-5 space-y-2 text-lg mb-12">
-            <li>The Study Mirror: Check If You're Ready For Exams.</li>
-            <li>How to Transform Academic Chaos into smooth and effortless Calm Without Stress Even if You're Drowning in Deadlines.</li>
+            <li>The Study Mirror: Check If You&apos;re Ready For Exams.</li>
+            <li>How to Transform Academic Chaos into smooth and effortless Calm Without Stress Even if You&apos;re Drowning in Deadlines.</li>
             <li>Reduce procrastination (for good)</li>
             <li>How to <em>hyper-personalize</em> your learning system for any situation and challenge.</li>
             <li>Advanced note-taking methods that drive <em>higher-order learning</em></li>
@@ -31,28 +31,28 @@ export function ProgramDetails() {
           </p>
           <ul className="list-disc pl-5 space-y-2 text-lg mb-6">
             <li>If you want me to <strong>take a look at your work</strong> and help point out places where you could improve</li>
-            <li><strong>Teach you</strong> whatever it is that you'd want to learn next</li>
-            <li>Answer <strong>your questions LIVE</strong> and show you how I'd do things differently...</li>
+            <li><strong>Teach you</strong> whatever it is that you&apos;d want to learn next</li>
+            <li>Answer <strong>your questions LIVE</strong> and show you how I&apos;d do things differently...</li>
           </ul>
           <p className="text-lg text-gray-700 mb-6">
             Then obviously you need to understand that this will not be one-on-one coaching. But this is where I plan to spend most of my attention in the foreseeable future.
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            And since we'll be launching to <strong>ONLY 10</strong> people at first...
+            And since we&apos;ll be launching to <strong>ONLY 10</strong> people at first...
           </p>
           <p className="text-xl font-bold text-gray-900 mb-12">
             <u>NOW is the best time to join. Before we let the masses in...</u>
           </p>
 
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">Here's The Deal: You Can Get Access to the Community Right NOW.</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Here&apos;s The Deal: You Can Get Access to the Community Right NOW.</h3>
           <p className="text-lg text-gray-700 mb-6">
-            We'll be launching to 10 people at first...
+            We&apos;ll be launching to 10 people at first...
           </p>
           <p className="text-lg text-gray-700 mb-6">
             And when you buy today... You will also get a resource that I believe to be incredibly valuable.
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            Listen everybody here has access to google and GPT, I'm not gonna pretend like you don't know how to research.
+            Listen everybody here has access to google and GPT, I&apos;m not gonna pretend like you don&apos;t know how to research.
           </p>
           <p className="text-lg text-gray-700 mb-6">
             My goal is to make it as simple and easy as humanly possible for you and to provide you with the support and accountability to actually reach your goal.
@@ -67,7 +67,7 @@ export function ProgramDetails() {
             You see... Many students think getting a tutor is the key to better grades. But is it really?
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            Here's how tutoring typically works:
+            Here&apos;s how tutoring typically works:
           </p>
           <ol className="list-decimal pl-5 space-y-2 text-lg mb-6">
             <li>They give you more resources</li>
@@ -76,22 +76,22 @@ export function ProgramDetails() {
             <li>Your exam results go up</li>
           </ol>
           <p className="text-lg text-gray-700 mb-6">
-            Sounds great, right? But there's a problem.
+            Sounds great, right? But there&apos;s a problem.
           </p>
           <p className="text-lg text-gray-700 mb-6">
             Ask yourself: What happens if you stop getting tutoring? Your access to resources and guidance disappears. Your knowledge and ability to apply it decreases too.
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            This means tutoring hasn't changed your state. You're like a level 1 character in a game, wearing level 6 armor and weapons. Take away the armor and weapons, and you're back to level 1.
+            This means tutoring hasn&apos;t changed your state. You&apos;re like a level 1 character in a game, wearing level 6 armor and weapons. Take away the armor and weapons, and you&apos;re back to level 1.
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            As your classes get harder and your goals get higher, you'll need more and more tutoring. Eventually, it won't be enough. You'll hit a wall because you haven't fundamentally changed.
+            As your classes get harder and your goals get higher, you&apos;ll need more and more tutoring. Eventually, it won&apos;t be enough. You&apos;ll hit a wall because you haven&apos;t fundamentally changed.
           </p>
           <p className="text-lg text-gray-700 mb-6">
             And then coming to my DMs and complaining about not being able to get the grades they used to get...
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            And I get it. It stinks. And is super demotivating. I've been there... And that's why when you join the Nord Community today
+            And I get it. It stinks. And is super demotivating. I&apos;ve been there... And that&apos;s why when you join the Nord Community today
           </p>
           <p className="text-xl font-bold text-gray-900 mb-6">
             You get the key that unlocks the only skill you need to BOTH get good grades and have time to live a fun life.
@@ -107,7 +107,7 @@ export function ProgramDetails() {
           />
 
           <p className="text-lg text-gray-700 mb-6">
-            <strong>The Learning How to Learn is a video course that you can finish in a single weekend. You'll also get a working-PDF with all the same information that's in the videos.</strong> Here's a glimpse of what's inside...
+            <strong>The Learning How to Learn is a video course that you can finish in a single weekend. You&apos;ll also get a working-PDF with all the same information that&apos;s in the videos.</strong> Here&apos;s a glimpse of what&apos;s inside...
           </p>
 
           <ul className="list-disc pl-5 space-y-2 text-lg mb-12">
@@ -119,7 +119,7 @@ export function ProgramDetails() {
 
           <hr className="my-12" />
 
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">Here's what our students are saying:</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Here&apos;s what our students are saying:</h3>
           <ul className="list-disc pl-5 space-y-2 text-lg mb-6">
             <li><strong>77%</strong> of learners cut their study time in half within <strong>2 months</strong>.</li>
             <li><strong>71%</strong> achieved <strong>95% or higher</strong> on exams within <strong>5 months</strong>.</li>
@@ -128,15 +128,15 @@ export function ProgramDetails() {
 
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Imagine this:</h3>
           <ul className="list-disc pl-5 space-y-2 text-lg mb-6">
-            <li>Walking into exams <strong>confident</strong> and <strong>prepared</strong>, knowing you've mastered the material.</li>
+            <li>Walking into exams <strong>confident</strong> and <strong>prepared</strong>, knowing you&apos;ve mastered the material.</li>
             <li>Having <strong>more free time</strong> to hang out with friends, pursue hobbies, or just relax.</li>
             <li>Seeing your grades <strong>skyrocket</strong> while your stress levels <strong>drop</strong>.</li>
           </ul>
           <p className="text-xl font-bold text-gray-900 mb-6">
-            That's the power of the Nord Program.
+            That&apos;s the power of the Nord Program.
           </p>
 
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">Here's what else you'll learn in the Nord community:</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Here&apos;s what else you&apos;ll learn in the Nord community:</h3>
           <ul className="list-disc pl-5 space-y-2 text-lg mb-12">
             <li>🧠 <strong>Master Your Study Habits</strong> – Access our comprehensive curriculum designed to transform your approach to learning with scientifically-backed strategies that save you time and enhance your performance.</li>
             <li>🚀 <strong>High-Yield Study Techniques</strong> – Learn how to effectively manage cognitive load, optimize your note-taking, and implement spaced retrieval practices to retain information longer and perform better on exams.</li>
@@ -147,7 +147,7 @@ export function ProgramDetails() {
             <li>🎓 <strong>Exam Preparation Mastery</strong> – Gain access to our specialized exam preparation toolkit, which includes mock tests, high-impact review sessions, and exam-day strategies to boost your confidence and performance.</li>
             <li>📈 <strong>Progress Tracking Dashboard</strong> – Utilize our interactive dashboard to monitor your skill progression, set goals, and receive personalized feedback to stay on track throughout your academic journey.</li>
             <li>🌐 <strong>Global Community Support</strong> – Join a thriving community of learners, share experiences, and get support from educators dedicated to helping you succeed.</li>
-            <li>🎯 <strong>Achieve Your Academic Goals</strong> – Whether you're in high school, university, or pursuing lifelong learning, our program equips you with the skills and knowledge to reach your full potential.</li>
+            <li>🎯 <strong>Achieve Your Academic Goals</strong> – Whether you&apos;re in high school, university, or pursuing lifelong learning, our program equips you with the skills and knowledge to reach your full potential.</li>
             <li>🎁 <strong>Exclusive Bonuses</strong> – Unlock additional resources, including our Marginal Gains Tracking system, Focus Training and Decision-Making modules, to further enhance your learning efficiency.</li>
           </ul>
 
@@ -156,7 +156,7 @@ export function ProgramDetails() {
           </p>
 
           <p className="text-lg text-gray-700 mb-6">
-            We'll have:
+            We&apos;ll have:
           </p>
           <ul className="list-disc pl-5 space-y-2 text-lg mb-6">
             <li>Polls</li>

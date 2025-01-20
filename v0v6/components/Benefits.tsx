@@ -13,13 +13,13 @@ export function Benefits() {
           <div className="mt-10">
             <div className="space-y-6">
               <p className="text-lg text-gray-500">
-                Frustrated with endless hours of studying but still not getting the grades you want? You're not alone. The problem isn't you—it's how you're learning.
+                Frustrated with endless hours of studying but still not getting the grades you want? You&apos;re not alone. The problem isn&apos;t you—it&apos;s how you&apos;re learning.
               </p>
               <p className="text-lg text-gray-500">
-                Are you tired of pulling all-nighters, drowning in textbooks, and still not getting the grades you deserve? You're not alone. The problem isn't your effort—it's the Old-School way you're learning. But what if you could study LESS, stress LESS, and score HIGHER?
+                Are you tired of pulling all-nighters, drowning in textbooks, and still not getting the grades you deserve? You&apos;re not alone. The problem isn&apos;t your effort—it&apos;s the Old-School way you&apos;re learning. But what if you could study LESS, stress LESS, and score HIGHER?
               </p>
               <p className="text-lg text-gray-500">
-                That's exactly what the Nord Program delivers.
+                That&apos;s exactly what the Nord Program delivers.
               </p>
               <p className="text-lg text-gray-500">
                 Scientists have studied learning for decades. They’ve found a fundamental problem in how students approach learning worldwide. Despite faster access to information, students work harder, study longer, and stress more.

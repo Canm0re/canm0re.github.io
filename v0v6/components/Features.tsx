@@ -15,7 +15,7 @@ const experts = [
         <p className="mt-2">The movie <em>Searching for Bobby Fischer</em> is based on his life. But Josh’s true talent?</p>
         <p className="mt-2">Decoding the art of learning itself.</p>
         <p className="mt-2">His book, <em>The Art of Learning</em>, has transformed thousands of lives.</p>
-        <p className="mt-2">As Josh has put it: "I've come to realize that what I am best at is not Tai Chi, and it is not chess. What I am best at is the art of learning."</p>
+        <p className="mt-2">As Josh has put it: &quot;I&apos;ve come to realize that what I am best at is not Tai Chi, and it is not chess. What I am best at is the art of learning.&quot;</p>
       </>
     )
   },
@@ -26,7 +26,7 @@ const experts = [
     description: (
       <>
         <p className="font-bold mb-4">Helped 15,000+ people improve their results and reduce their study time</p>
-        <p>Here's his story as he tells it:</p>
+        <p>Here&apos;s his story as he tells it:</p>
         <blockquote className="border-l-4 border-gray-300 pl-4 mt-2 italic whitespace-pre-line">
           {`I remembered walking out of a lecture after week 1 telling myself, "There is no way I can keep up anymore…"...
 
@@ -57,7 +57,7 @@ const experts = [
       <>
         <p className="font-bold">He is also a teacher with online courses on learning and the author of best selling book Ultralearning</p>
         <p className="mt-2">Read and written about the subject of learning for over a decade.</p>
-        <p className="mt-2">Explores why it's so difficult for people to learn new skills, arguing that three factors must be met to make advancement possible, and offering 12 maxims to improve the way we learn.</p>
+        <p className="mt-2">Explores why it&apos;s so difficult for people to learn new skills, arguing that three factors must be met to make advancement possible, and offering 12 maxims to improve the way we learn.</p>
       </>
     )
   }
@@ -68,7 +68,7 @@ export function Features() {
     <div className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Don't let poor study methods hold you back. Discover a better way to learn.</h2>
+        <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Don&apos;t let poor study methods hold you back. Discover a better way to learn.</h2>
         <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Imagine if you could...</h2>
         <ul className="space-y-4 text-lg">
           <li>
@@ -83,7 +83,7 @@ export function Features() {
         </ul>
 
         <p className="mt-4 text-xl font-bold text-gray-900">
-          These aren’t over-the-top promises. They're just <span className="text-indigo-600">SKILLS</span>.
+          These aren’t over-the-top promises. They&apos;re just <span className="text-indigo-600">SKILLS</span>.
         </p>
         <p className="mt-4 text-lg text-gray-700">
           Skills I’ve spent five years mastering and use daily
@@ -116,7 +116,7 @@ export function Features() {
           But hey. 
         </p>
         <p className="mt-8 text-lg text-gray-700">
-          That's enough about me.
+          That&apos;s enough about me.
         </p>
         <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Meet the Experts Behind the Nord Program</h2>
         <div className="mt-12 space-y-12 max-w-7xl mx-auto">
@@ -139,14 +139,14 @@ export function Features() {
         <div className="mt-16 border-t border-gray-200 pt-16"></div>
         <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl mb-8">These experts have cracked the code to mastering any subject—and now, you can too.</h2>
         <div className="space-y-4">
-          <h2 className="text-3xl font-bold text-gray-900">Here's the Truth: I'm Not an Expert—I'm a Curator of Expertise.</h2>
+          <h2 className="text-3xl font-bold text-gray-900">Here&apos;s the Truth: I&apos;m Not an Expert—I&apos;m a Curator of Expertise.</h2>
 
           <p className="text-lg text-gray-700">
-            I've spent <strong>5 years</strong> diving deep into the science of learning. I've read every book, taken every course, and tested every technique—from Josh Waitzkin's <em>The Art of Learning</em> to Justin Sung's <em>icanStudy</em> system. I've even implemented Scott H. Young's <em>Ultralearning</em> principles in my own life.
+            I&apos;ve spent <strong>5 years</strong> diving deep into the science of learning. I&apos;ve read every book, taken every course, and tested every technique—from Josh Waitzkin&apos;s <em>The Art of Learning</em> to Justin Sung&apos;s <em>icanStudy</em> system. I&apos;ve even implemented Scott H. Young&apos;s <em>Ultralearning</em> principles in my own life.
           </p>
 
           <p className="text-lg text-gray-700">
-            But here's the problem: <strong>Most students don't have 5 years to waste figuring this out.</strong>
+            But here&apos;s the problem: <strong>Most students don&apos;t have 5 years to waste figuring this out.</strong>
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900">What Happens When You Spend 15 minutes a day Using Science to Improve Your Brain?</h2>
@@ -187,23 +187,23 @@ export function Features() {
           </p>
           
           <p className="text-lg text-gray-700">
-            I've done the hard work for you—sifting through the noise, testing what works, and compiling the <strong>best, science-backed strategies</strong> into one simple system.
+            I&apos;ve done the hard work for you—sifting through the noise, testing what works, and compiling the <strong>best, science-backed strategies</strong> into one simple system.
           </p>
 
           <p className="text-lg text-gray-700">
-            Think of me as your <strong>learning guide</strong>. I've gathered the most effective tools, techniques, and frameworks from the world's top experts—so you don't have to.
+            Think of me as your <strong>learning guide</strong>. I&apos;ve gathered the most effective tools, techniques, and frameworks from the world&apos;s top experts—so you don&apos;t have to.
           </p>
 
-          <h3 className="text-2xl font-bold text-gray-900">Here's what that means for you:</h3>
+          <h3 className="text-2xl font-bold text-gray-900">Here&apos;s what that means for you:</h3>
 
           <ul className="list-disc pl-5 space-y-2 text-lg text-gray-700">
-            <li><strong>No more guesswork.</strong> You'll know exactly what to do to study smarter, not harder.</li>
+            <li><strong>No more guesswork.</strong> You&apos;ll know exactly what to do to study smarter, not harder.</li>
             <li><strong>No more wasted time.</strong> Skip the trial-and-error and see results right away.</li>
-            <li><strong>No more stress.</strong> Use a proven system that works—whether you're studying for IGCSE, IB, or any other high-stakes exam.</li>
+            <li><strong>No more stress.</strong> Use a proven system that works—whether you&apos;re studying for IGCSE, IB, or any other high-stakes exam.</li>
           </ul>
 
           <p className="text-lg text-gray-700">
-            This isn't just another "study tips" program. It's a <strong>curated, science-backed roadmap</strong> to academic success—designed specifically for students like you.
+            This isn&apos;t just another &quot;study tips&quot; program. It&apos;s a <strong>curated, science-backed roadmap</strong> to academic success—designed specifically for students like you.
           </p>
         </div>
         

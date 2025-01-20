@@ -41,7 +41,7 @@ export function Pricing() {
           <div className="max-w-3xl mx-auto space-y-2 lg:max-w-none">
             <h2 className="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">Pricing</h2>
             <p className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
-              Here's The Deal:
+              Here&apos;s The Deal:
             </p>
             <p className="text-xl text-gray-300">
               For a <strong>limited time</strong>, join the Nord Community and get:
@@ -101,7 +101,7 @@ export function Pricing() {
         </div>
         <div className="mt-4 text-center">
           <p className="text-base font-semibold text-gray-900">Only 10 Spots Available!</p>
-          <p className="mt-2 text-sm text-gray-500">We're keeping this community small to ensure personalized attention for every member. Once the spots are gone, the doors close—so act fast!</p>
+          <p className="mt-2 text-sm text-gray-500">We&apos;re keeping this community small to ensure personalized attention for every member. Once the spots are gone, the doors close—so act fast!</p>
         </div>
       </div>
     </div>

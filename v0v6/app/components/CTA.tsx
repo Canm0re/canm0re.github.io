@@ -18,7 +18,7 @@ export function CTA() {
           <span className="block">Transform Your Academic Life Today</span>
         </h2>
         <p className="mt-4 text-lg leading-6 text-indigo-200">
-          Join the Nord Community now and start your journey to academic excellence. With our proven methods, expert guidance, and supportive community, you'll be amazed at what you can achieve.
+          Join the Nord Community now and start your journey to academic excellence. With our proven methods, expert guidance, and supportive community, you&apos;ll be amazed at what you can achieve.
         </p>
         <p className="mt-2 text-xl font-semibold text-white">
           Remember, only 10 spots are available for Dubai students!
