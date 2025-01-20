@@ -55,7 +55,7 @@ const experts = [
     image: "https://6s32vsspft6xcd13.public.blob.vercel-storage.com/scott-1QbMS1iYXPaiQdxQl6Lsv6QGAu2sGc.jpg",
     description: (
       <>
-        <p className="font-bold">He is also a teacher with online courses on learning and the author of best selling book Ultralearning</p>
+        <p className="font-bold">He is also a teacher with online courses on learning and the author of bestselling book Ultralearning</p>
         <p className="mt-2">Read and written about the subject of learning for over a decade.</p>
         <p className="mt-2">Explores why it&apos;s so difficult for people to learn new skills, arguing that three factors must be met to make advancement possible, and offering 12 maxims to improve the way we learn.</p>
       </>
@@ -68,57 +68,14 @@ export function Features() {
     <div className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Don&apos;t let poor study methods hold you back. Discover a better way to learn.</h2>
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Imagine if you could...</h2>
-        <ul className="space-y-4 text-lg">
-          <li>
-            <strong>Make memory a choice.</strong> If you want to remember something, you can simply cause it to happen.
-          </li>
-          <li>
-            Process lessons during class and remember for longer so that you study Less.
-          </li>
-          <li>
-            Use evidence-based <em>note-taking techniques</em> that deepen understanding without wasting time.
-          </li>
-        </ul>
-
+        <h2 className="text-2xl font-bold text-red-600 mb-8">Don&apos;t let poor study methods hold you back. Discover a better way to learn.</h2>
         <p className="mt-4 text-xl font-bold text-gray-900">
           These aren’t over-the-top promises. They&apos;re just <span className="text-indigo-600">SKILLS</span>.
         </p>
         <p className="mt-4 text-lg text-gray-700">
           Skills I’ve spent five years mastering and use daily
         </p>
-        <h2 className="mt-8 text-3xl font-extrabold text-gray-900">
-          A Glimpse Into The World of Hyper-learning
-        </h2>
-        <p className="mt-4 text-xl font-bold text-gray-900">
-          The Nord Program is a science-backed system that helps you:
-        </p>
-        <ul className="mt-4 space-y-2 text-lg">
-          <li><strong>Study 50% less</strong> while <strong>scoring 95% or higher</strong> on exams.</li>
-          <li><strong>Retain information longer</strong> with proven memory techniques.</li>
-          <li><strong>Reduce stress</strong> and <strong>regain control</strong> of your academic life.</li>
-        </ul>
-        <p className="mt-8 text-lg text-gray-700">
-          Look. I spent 5 years testing and refining this system. you can learn it in less than <strong>1/10th</strong> of the time.
-        </p>
-        <p className="mt-4 text-xl font-bold text-gray-900">
-          In the last 5 years I used this skill to do some incredible things. Including:
-        </p>
-        <ul className="mt-4 space-y-2 text-lg">
-          <li>Build an $8.5M e-Commerce store</li>
-          <li><strong>Sell nearly $1M of my course within just 3 months (with 52% profit and ZERO organic audience)</strong></li>
-          <li>Spend more than $10M on FB ads PROFITABLY -- using my own money.</li>
-          <li><strong>Help a client of build TWO 8-figure businesses</strong></li>
-          <li>Beat dozens of copywriting controls for SaaS and info-business clients (some by 10X)</li>
-        </ul>
-        <p className="mt-8 text-lg text-gray-700">
-          But hey. 
-        </p>
-        <p className="mt-8 text-lg text-gray-700">
-          That&apos;s enough about me.
-        </p>
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Meet the Experts Behind the Nord Program</h2>
+        <h2 className="text-3xl font-extrabold text-gray-900 mt-12 mb-8">Meet the Experts Behind the Nord Program</h2>
         <div className="mt-12 space-y-12 max-w-7xl mx-auto">
           {experts.map((expert) => (
             <div key={expert.name} className="space-y-4">
@@ -160,7 +117,7 @@ export function Features() {
           </p>
 
           <p className="text-lg text-gray-700">
-            Adopt the mindset of athletes. Athletes practice daily to improve their core skills, and refine their techniques through consistent practice. Students should take a similar approach, dedicating time every day to sharpen their study skills and build the habits that lead to faster and more effective learning.
+            Adopt the mindset of athletes. Athletes practice daily to improve their core skills and refine their techniques through consistent practice. Students should take a similar approach, dedicating time every day to sharpen their study skills and build the habits that lead to faster and more effective learning.
           </p>
 
           <p className="text-lg text-gray-700">
@@ -174,7 +131,7 @@ export function Features() {
           <ul className="list-disc pl-5 space-y-2 text-lg text-gray-700">
             <li><strong>Saving information in long-term memory</strong> with spaced repetition and retrieval practice.</li>
             <li><strong>Improving focus and getting more done</strong> by managing mental effort and avoiding distractions.</li>
-            <li><strong>Understanding hard ideas</strong> with better note-taking and mind-mapping methods.</li>
+            <li><strong>Understanding hard ideas</strong> with better notetaking and mind-mapping methods.</li>
             <li><strong>Feeling less stress and more confident</strong> by believing in your ability to learn and succeed.</li>
           </ul>
 

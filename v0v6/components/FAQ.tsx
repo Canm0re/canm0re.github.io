@@ -19,7 +19,7 @@ const faqs = [
     )
   },
   {
-    question: "Is there a reason i should NOT join?",
+    question: "Is there a reason I should NOT join?",
     answer: (
       <div className="space-y-4">
         <ol className="list-disc pl-5 space-y-2">

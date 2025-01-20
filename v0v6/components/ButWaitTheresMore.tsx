@@ -70,7 +70,7 @@ export function ButWaitTheresMore() {
             <p>If you&apos;re using methods that don&apos;t align with your Learner Type, you&apos;re fighting an uphill battle. But when you match your study techniques to your type, everything becomes easier.</p>
 
             <h4 className="text-xl font-bold text-gray-900 mt-8 mb-4">Here&apos;s the Solution:</h4>
-            <p>The moment you join the Nord Community, you&apos;ll get access to our exclusive Learner Type Assessment.</p>
+            <p>The moment you join the Nord Community; you&apos;ll get access to our exclusive Learner Type Assessment.</p>
             <p>This isn&apos;t just another quiz—it&apos;s a science-backed tool that will:</p>
             <ul className="list-disc pl-5 space-y-2">
               <li>Identify your unique Learner Type—so you can stop wasting time on methods that don&apos;t work for you.</li>
@@ -115,7 +115,7 @@ export function ButWaitTheresMore() {
           <h2 className="text-3xl font-extrabold text-gray-900 mt-16 mb-8">4 Reasons you shouldn&apos;t join:</h2>
           <ol className="list-decimal pl-5 space-y-4 text-lg text-gray-700 mb-8">
             <li>The community is on a new platform. We&apos;ve NEVER tested it before. YOU are the guinea pig.</li>
-            <li>There&apos;s NOTHING happening inside except for a library of content and a couple of weekly calls with this guy named Awab. Bummer right? And also a couple of exercises. So what...?</li>
+            <li>There&apos;s NOTHING happening inside except for a library of content and a couple of weekly calls with this guy named Awab. Bummer right? And also, a couple of exercises. So what...?</li>
             <li>It&apos;s $47 PER month. Not a one off. $47. Every-single-month. Can you imagine?</li>
             <li>There are only 10 spots. You&apos;re probably not even gonna be able to get in on time.</li>
           </ol>
@@ -133,11 +133,11 @@ export function ButWaitTheresMore() {
           <p className="text-lg text-gray-700 mb-4"><strong>I&apos;m over-delivering by a ton</strong> with the free course AND the information that&apos;s ALREADY inside the community. Not to mention the live calls and everything else...</p>
           <p className="text-lg text-gray-700 mb-4">But it MIGHT seem like the community is still underdeveloped. And you wouldn&apos;t be wrong.</p>
           <p className="text-lg text-gray-700 mb-8"><strong>But hey. I believe in transparency</strong>. <u>What you see is what you get.</u></p>
-          <p className="text-lg text-gray-700 mb-8">So if you&apos;re ready to be a founding member of the Nord Community?</p>
+          <p className="text-lg text-gray-700 mb-8">So, if you&apos;re ready to be a founding member of the Nord Community?</p>
 
           <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Here&apos;s how you get access right NOW:</h2>
           <ol className="list-decimal pl-5 space-y-4 text-lg text-gray-700 mb-8">
-            <li>Pick one of the two option below</li>
+            <li>Pick one of the two options below</li>
             <li>Click the button under it</li>
             <li><strong>Get immediate access to BOTH the community AND the course.</strong></li>
           </ol>
