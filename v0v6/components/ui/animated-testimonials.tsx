@@ -1,7 +1,7 @@
 "use client";
 
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useAnimation } from "framer-motion";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { FlipCard } from "./flip-card";
@@ -22,6 +22,11 @@ export const AnimatedTestimonials = ({
   className?: string;
 }) => {
   const [active, setActive] = useState(0);
+  const controls = useAnimation();
+  const swipeConfidenceThreshold = 10000;
+  const swipePower = (offset: number, velocity: number) => {
+    return Math.abs(offset) * velocity;
+  };
 
   const handleNext = () => {
     setActive((prev) => (prev + 1) % testimonials.length);
@@ -29,6 +34,14 @@ export const AnimatedTestimonials = ({
 
   const handlePrev = () => {
     setActive((prev) => (prev - 1 + testimonials.length) % testimonials.length);
+  };
+
+  const paginate = (newDirection: number) => {
+    if (newDirection === 1) {
+      handleNext();
+    } else {
+      handlePrev();
+    }
   };
 
   const isActive = (index: number) => {
@@ -44,7 +57,7 @@ export const AnimatedTestimonials = ({
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-20">
         <div>
           <div className="relative h-80 w-full">
-            <AnimatePresence>
+            <AnimatePresence initial={false}>
               {testimonials.map((testimonial, index) => (
                 <motion.div
                   key={testimonial.src}
@@ -74,7 +87,19 @@ export const AnimatedTestimonials = ({
                     duration: 0.4,
                     ease: "easeInOut",
                   }}
-                  className="absolute inset-0 origin-bottom"
+                  className="absolute inset-0 origin-bottom touch-pan-y"
+                  drag="x"
+                  dragConstraints={{ left: 0, right: 0 }}
+                  dragElastic={1}
+                  onDragEnd={(e, { offset, velocity }) => {
+                    const swipe = swipePower(offset.x, velocity.x);
+
+                    if (swipe < -swipeConfidenceThreshold) {
+                      paginate(1);
+                    } else if (swipe > swipeConfidenceThreshold) {
+                      paginate(-1);
+                    }
+                  }}
                 >
                   <FlipCard
                     frontContent={testimonial}
