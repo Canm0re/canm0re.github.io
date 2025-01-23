@@ -16,17 +16,17 @@ export function Benefits() {
               </p>
               <ul className="text-lg text-gray-500 list-disc pl-6 space-y-2">
                 <li>You spend 3 hours studying, but only retain 20% of it.</li>
-                <li>You walk into exams feeling anxious because you know you'll forget half of what you memorized.</li>
-                <li>You sacrifice time with friends, hobbies, or sleep—yet your grades don't reflect your effort.</li>
+                <li>You walk into exams feeling anxious because you know you&apos;ll forget half of what you memorized.</li>
+                <li>You sacrifice time with friends, hobbies, or sleep—yet your grades don&apos;t reflect your effort.</li>
               </ul>
               <p className="text-lg text-gray-500">
                 Worst of all? These habits set you up to struggle even more in college or university. The workload gets heavier, but your methods stay the same.
               </p>
               <p className="text-lg font-bold text-gray-500">
-                The Nord Program flips this script. Instead of fighting your brain, you'll work with it.
+                The Nord Program flips this script. Instead of fighting your brain, you&apos;ll work with it.
               </p>
               <p className="text-lg text-gray-500">
-                Here's how:
+                Here&apos;s how:
               </p>
               <ul className="text-lg text-gray-500 space-y-2">
                 <li><strong>Spaced Repetition:</strong> Learn how to review information at optimal intervals so it sticks permanently (no more cramming).</li>
@@ -35,7 +35,7 @@ export function Benefits() {
                 <li><strong>Neuroplasticity Hacks:</strong> Use proven techniques to rewire your brain for faster learning and better retention.</li>
               </ul>
               <p className="text-lg font-bold text-gray-500">
-                <strong>Result?</strong> You'll study less, remember more, and walk into exams with unshakable confidence.
+                <strong>Result?</strong> You&apos;ll study less, remember more, and walk into exams with unshakable confidence.
               </p>
             </div>
           </div>

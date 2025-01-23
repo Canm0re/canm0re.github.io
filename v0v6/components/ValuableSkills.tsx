@@ -32,9 +32,8 @@ export function ValuableSkills() {
             <p className="text-xl text-center text-red-500 mb-8">🙅‍♀️ Stop the struggle with inefficient techniques.🙅‍♀️</p>
 
             <p className="text-lg">🎓 We care about how you study and how you can improve.</p>
-            <p className="text-lg mb-10">🎓 These techniques aren't just for school—they're essential life skills that foster intellectual independence.</p>
-
-            <p className="text-xl font-bold text-center">👉 But that's not all. When you join today, you'll also get these exclusive bonuses🎁</p>
+            <p className="text-lg mb-10">🎓 These techniques aren&apos;t just for school—they&apos;re essential life skills that foster intellectual independence.</p>
+            <p className="text-xl font-bold text-center">👉 But that&apos;s not all. When you join today, you&apos;ll also get these exclusive bonuses🎁</p>
           </div>
         </div>
       </div>

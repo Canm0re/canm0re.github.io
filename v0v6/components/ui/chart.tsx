@@ -19,7 +19,7 @@ interface ChartTooltipProps {
   payload?: Array<{
     name: string
     value: number
-    payload: Record<string, any>
+    payload: Record<string, string | number>
   }>
   config?: ChartConfig
 }
