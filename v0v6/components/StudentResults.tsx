@@ -36,12 +36,13 @@ export function StudentResults() {
 
           <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-0">Imagine if you could...</h3>
           <ul className="pl-5 space-y-4 text-lg [list-style-type:none] relative">
+            <li className="before:content-['✍️'] before:absolute before:left-0 before:ml-[-.5em]">Use evidence-based <em>note-taking techniques</em> that deepen understanding without wasting time.</li>
+            <li className="before:content-['🧠'] before:absolute before:left-0 before:ml-[-.5em]"><strong>Make memory a choice.</strong> If you want to remember something, you can simply do it.</li>
             <li className="before:content-['💪'] before:absolute before:left-0 before:ml-[-.5em]">Walk into exams <strong>confident</strong> and <strong>prepared</strong>, knowing you&apos;ve mastered the material.</li>
+            <li className="before:content-['⚡'] before:absolute before:left-0 before:ml-[-.5em]">Process lessons during class and remember for longer so that you study Less.</li>
             <li className="before:content-['🛋️'] before:absolute before:left-0 before:ml-[-.5em]">Have <strong>more free time</strong> to hang out with friends, pursue hobbies, or just relax.</li>
             <li className="before:content-['📈'] before:absolute before:left-0 before:ml-[-.5em]">Watch your grades <strong>skyrocket</strong> while your stress levels <strong>drop</strong>.</li>
-            <li className="before:content-['🧠'] before:absolute before:left-0 before:ml-[-.5em]"><strong>Make memory a choice.</strong> If you want to remember something, you can simply do it.</li>
-            <li className="before:content-['⚡'] before:absolute before:left-0 before:ml-[-.5em]">Process lessons during class and remember for longer so that you study Less.</li>
-            <li className="before:content-['✍️'] before:absolute before:left-0 before:ml-[-.5em]">Use evidence-based <em>note-taking techniques</em> that deepen understanding without wasting time.</li>
+
           </ul>
 
           <p className="text-2xl font-bold text-indigo-600 mt-8">This isn&apos;t a dream—it&apos;s your new reality.</p>

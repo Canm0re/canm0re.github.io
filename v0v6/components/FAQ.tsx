@@ -31,6 +31,14 @@ const faqs = [
       </div>
     )
   },
+  {
+    question: "What's wrong with the way I'm learning now?",
+    answer: (
+      <p className="text-base text-gray-500">
+        Nothing's 'wrong' with you—you're just using outdated methods that ignore how your brain actually works. Schools teach you <em>what</em> to learn, not <em>how</em> to learn. The Nord Program gives you the science-backed tools to study smarter, retain more, and stress less.
+      </p>
+    )
+  },
 ]
 
 export function FAQ() {

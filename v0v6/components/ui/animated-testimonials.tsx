@@ -12,6 +12,7 @@ type Testimonial = {
   designation: string;
   src: string;
   transformation: string;
+  flipContent?: string;
 };
 
 export const AnimatedTestimonials = ({
@@ -101,9 +102,13 @@ export const AnimatedTestimonials = ({
                   }}
                 >
                   <FlipCard
-                    frontContent={testimonial}
-                    backContent={testimonial.transformation}
+                    frontContent={{
+                      ...testimonial,
+                      designation: testimonial.quote
+                    }}
+                    backContent={testimonial.flipContent || testimonial.transformation}
                     isActive={isActive(index)}
+                    hideNameInCard={true}
                   />
                 </motion.div>
               ))}
@@ -137,7 +142,7 @@ export const AnimatedTestimonials = ({
               {testimonials[active].designation}
             </p>
             <motion.p className="text-lg text-muted-foreground mt-8">
-              {testimonials[active].quote.split(" ").map((word, index) => (
+              {testimonials[active].transformation.split(" ").map((word, index) => (
                 <motion.span
                   key={index}
                   initial={{

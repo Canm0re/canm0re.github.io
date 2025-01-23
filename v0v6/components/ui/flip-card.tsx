@@ -11,9 +11,10 @@ type FlipCardProps = {
   };
   backContent: string;
   isActive?: boolean;
+  hideNameInCard?: boolean;
 };
 
-export function FlipCard({ frontContent, backContent, isActive = false }: FlipCardProps) {
+export function FlipCard({ frontContent, backContent, isActive = false, hideNameInCard = false }: FlipCardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const flipVariants = {
@@ -51,9 +52,11 @@ export function FlipCard({ frontContent, backContent, isActive = false }: FlipCa
             className="h-full w-full rounded-3xl object-cover object-center"
           />
           <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent rounded-b-3xl">
-            <h3 className="text-xl font-bold text-white">
-              {frontContent.name}
-            </h3>
+            {!hideNameInCard && (
+              <h3 className="text-xl font-bold text-white">
+                {frontContent.name}
+              </h3>
+            )}
             <p className="text-sm text-white/80">
               {frontContent.designation}
             </p>

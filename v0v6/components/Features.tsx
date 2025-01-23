@@ -11,8 +11,8 @@ const experts = [
           <li>Won martial arts championships by 28</li>
           <li>Published a bestselling book at 31</li>
         </ul>
-        <p className="mt-2">He’s a Grandmaster in chess, a Jiu Jitsu blackbelt, and a Tai Chi world champion. Now, he is mastering paddle surfing and foiling. The world’s top performers seek his guidance, paying millions for his advice.</p>
-        <p className="mt-2">The movie <em>Searching for Bobby Fischer</em> is based on his life. But Josh’s true talent?</p>
+        <p className="mt-2">He&apos;s a Grandmaster in chess, a Jiu Jitsu blackbelt, and a Tai Chi world champion. Now, he is mastering paddle surfing and foiling. The world's top performers seek his guidance, paying millions for his advice.</p>
+        <p className="mt-2">The movie <em>Searching for Bobby Fischer</em> is based on his life. But Josh's true talent?</p>
         <p className="mt-2">Decoding the art of learning itself.</p>
         <p className="mt-2">His book, <em>The Art of Learning</em>, has transformed thousands of lives.</p>
         <p className="mt-2">As Josh has put it: &quot;I&apos;ve come to realize that what I am best at is not Tai Chi, and it is not chess. What I am best at is the art of learning.&quot;</p>
@@ -70,10 +70,10 @@ export function Features() {
         <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-red-600 mb-8">Don&apos;t let poor study methods hold you back. Discover a better way to learn.</h2>
         <p className="mt-4 text-xl font-bold text-gray-900">
-          These aren’t over-the-top promises. They&apos;re just <span className="text-indigo-600">SKILLS</span>.
+          These aren&apos;t over-the-top promises. They&apos;re just <span className="text-indigo-600">SKILLS</span>.
         </p>
         <p className="mt-4 text-lg text-gray-700">
-          Skills I’ve spent five years mastering and use daily
+          Skills I&apos;ve spent five years mastering and use daily
         </p>
         <h2 className="text-3xl font-extrabold text-gray-900 mt-12 mb-8">Meet the Experts Behind the Nord Program</h2>
         <div className="mt-12 space-y-12 max-w-7xl mx-auto">
@@ -99,7 +99,7 @@ export function Features() {
           <h2 className="text-3xl font-bold text-gray-900">Here&apos;s the Truth: I&apos;m Not an Expert—I&apos;m a Curator of Expertise.</h2>
 
           <p className="text-lg text-gray-700">
-            I&apos;ve spent <strong>5 years</strong> diving deep into the science of learning. I&apos;ve read every book, taken every course, and tested every technique—from Josh Waitzkin&apos;s <em>The Art of Learning</em> to Justin Sung&apos;s <em>icanStudy</em> system. I&apos;ve even implemented Scott H. Young&apos;s <em>Ultralearning</em> principles in my own life.
+            I&apos;ve spent <strong>5 years</strong> studying their work, testing their methods, and refining them into a simple, step-by-step system. Think of me as your <strong>learning guide</strong>—I&apos;ve done the hard work so you don&apos;t have to.
           </p>
 
           <p className="text-lg text-gray-700">
@@ -117,7 +117,7 @@ export function Features() {
           </p>
 
           <p className="text-lg text-gray-700">
-            Adopt the mindset of athletes. Athletes practice daily to improve their core skills and refine their techniques through consistent practice. Students should take a similar approach, dedicating time every day to sharpen their study skills and build the habits that lead to faster and more effective learning.
+            <strong>Adopt the mindset of athletes:</strong> Athletes practice daily to improve their core skills and refine their techniques through consistent practice. Students should take a similar approach, dedicating time every day to sharpen their study skills and build the habits that lead to faster and more effective learning.
           </p>
 
           <p className="text-lg text-gray-700">
@@ -129,34 +129,26 @@ export function Features() {
           </p>
 
           <ul className="list-disc pl-5 space-y-2 text-lg text-gray-700">
-            <li><strong>Saving information in long-term memory</strong> with spaced repetition and retrieval practice.</li>
-            <li><strong>Improving focus and getting more done</strong> by managing mental effort and avoiding distractions.</li>
-            <li><strong>Understanding hard ideas</strong> with better notetaking and mind-mapping methods.</li>
-            <li><strong>Feeling less stress and more confident</strong> by believing in your ability to learn and succeed.</li>
+            <li><strong>Feel less stress and be more confident</strong> by believing in your ability to learn and succeed.</li>
+            <li><strong>Improve focus and get more done</strong> by managing mental effort and avoiding distractions.</li>
+            <li><strong>Save information in long-term memory</strong> with spaced repetition and retrieval practice.</li>
+            <li><strong>Understand hard ideas</strong> with better notetaking and mind-mapping methods.</li>
           </ul>
 
           <p className="text-lg text-gray-700">
-            These small daily habits add up, changing how you learn and perform. The best part? You don’t need to study for hours to see progress.
+            These small daily habits add up, changing how you learn and perform. The best part? You don&apos;t need to study for hours to see progress.
           </p>
 
           <p className="text-lg text-gray-700">
-           That’s why I created the <strong>Nord Program</strong>—to give you the tools, methods, and support to unlock your brain’s full potential. It’s not about working harder; it’s about working smarter.
+           That&apos;s why I created the <strong>Nord Program</strong>—to give you the tools, methods, and support to unlock your brain&apos;s full potential. It&apos;s not about working harder; it&apos;s about working smarter.
           </p>
           
-          <p className="text-lg text-gray-700">
-            I&apos;ve done the hard work for you—sifting through the noise, testing what works, and compiling the <strong>best, science-backed strategies</strong> into one simple system.
-          </p>
-
-          <p className="text-lg text-gray-700">
-            Think of me as your <strong>learning guide</strong>. I&apos;ve gathered the most effective tools, techniques, and frameworks from the world&apos;s top experts—so you don&apos;t have to.
-          </p>
-
           <h3 className="text-2xl font-bold text-gray-900">Here&apos;s what that means for you:</h3>
 
           <ul className="list-disc pl-5 space-y-2 text-lg text-gray-700">
-            <li><strong>No more guesswork.</strong> You&apos;ll know exactly what to do to study smarter, not harder.</li>
-            <li><strong>No more wasted time.</strong> Skip the trial-and-error and see results right away.</li>
             <li><strong>No more stress.</strong> Use a proven system that works—whether you&apos;re studying for IGCSE, IB, or any other high-stakes exam.</li>
+            <li><strong>No more guesswork.</strong> You&apos;ll know exactly what to do to study smarter and study <em>less</em>.</li>
+            <li><strong>No more wasted time.</strong> Skip the trial-and-error and see results right away.</li>
           </ul>
 
           <p className="text-lg text-gray-700">
