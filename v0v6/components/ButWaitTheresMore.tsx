@@ -1,20 +1,7 @@
 'use client'
 
 import { AnimatedTestimonials } from "./ui/animated-testimonials";
-import { TrendingUp } from "lucide-react";
 import { PolarAngleAxis, PolarGrid, Radar, RadarChart, ResponsiveContainer, Tooltip } from "recharts";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
-import {
-  ChartConfig,
-  ChartContainer,
-  ChartTooltipContent,
-} from "./ui/chart";
 
 const learnerTypeData = [
   { dimension: "Deep Processing", value: 80 },
@@ -23,13 +10,6 @@ const learnerTypeData = [
   { dimension: "Self-Management", value: 75 },
   { dimension: "Retrieval Practice", value: 95 },
 ];
-
-const chartConfig = {
-  value: {
-    label: "Dimension Score",
-    color: "hsl(var(--primary))",
-  },
-} satisfies ChartConfig;
 
 export function ButWaitTheresMore() {
   return (
