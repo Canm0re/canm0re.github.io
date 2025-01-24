@@ -70,19 +70,19 @@ export function ButWaitTheresMore() {
               <AnimatedTestimonials
                 testimonials={[
                   {
-                    quote: "I&apos;m working hard, but my grades don&apos;t reflect it… Am I just not smart enough?",
+                    quote: "I'm working hard, but my grades don't reflect it… Am I just not smart enough?",
                     name: "The Unchained",
                     designation: "The High-Potential Student",
                     src: "https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    transformation: "We&apos;ll help you: Rewire limiting beliefs using neuroscience-backed mindset techniques. Learn how top students triple their retention rates while studying less.",
+                    transformation: "We'll help you: Rewire limiting beliefs using neuroscience-backed mindset techniques. Learn how top students triple their retention rates while studying less.",
                     flipContent: "Break free from self-doubt and unlock rapid growth. Walk into exams feeling unstoppable."
                   },
                   {
-                    quote: "I&apos;m putting in the hours, but nothing sticks… Why am I still struggling?",
+                    quote: "I'm putting in the hours, but nothing sticks… Why am I still struggling?",
                     name: "The Sprout",
                     designation: "The Determined Builder",
                     src: "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    transformation: "We&apos;ll help you: Master the 3 foundational habits of IB/IGCSE toppers. Turn chaotic cramming into strategic learning sessions that stick.",
+                    transformation: "We'll help you: Master the 3 foundational habits of IB/IGCSE toppers. Turn chaotic cramming into strategic learning sessions that stick.",
                     flipContent: "Grow strong roots for unstoppable success so you can finally see your efforts translate into 95%+ scores."
                   },
                   {
@@ -90,16 +90,16 @@ export function ButWaitTheresMore() {
                     name: "The Trooper",
                     designation: "The Disciplined Optimizer",
                     src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2084&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    transformation: "We&apos;ll help you: Replace surface-level memorization with deep processing frameworks used by medical students. Crack complex subjects like physics and calculus with ease.",
-                    flipContent: "Upgrade from hard work to smart mastery. Transform the panic of &apos;I studied this!&apos; into the confidence of &apos;I own this!&apos;"
+                    transformation: "We'll help you: Replace surface-level memorization with deep processing frameworks used by medical students. Crack complex subjects like physics and calculus with ease.",
+                    flipContent: "Upgrade from hard work to smart mastery. Transform the panic of 'I studied this!' into the confidence of 'I own this!'"
                   },
                   {
-                    quote: "I understand the concepts… So why can&apos;t I stay focused long enough to prove it?",
+                    quote: "I understand the concepts… So why can't I stay focused long enough to prove it?",
                     name: "The Visionary",
                     designation: "The Scattered Genius",
                     src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    transformation: "We&apos;ll help you: Master the Focus Funnel System—used by chess prodigies and startup CEOs—to transform scattered insights into unstoppable momentum.",
-                    flipContent: "Channel your brilliance into consistent excellence. Transform &apos;I get it&apos; into &apos;I aced it&apos; in just 30 days."
+                    transformation: "We'll help you: Master the Focus Funnel System—used by chess prodigies and startup CEOs—to transform scattered insights into unstoppable momentum.",
+                    flipContent: "Channel your brilliance into consistent excellence. Transform 'I get it' into 'I aced it' in just 30 days."
                   },
                 ]}
               />

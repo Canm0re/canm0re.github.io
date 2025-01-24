@@ -30,13 +30,13 @@ const experts = [
         <blockquote className="border-l-4 border-gray-300 pl-4 mt-2 italic whitespace-pre-line">
           {`I remembered walking out of a lecture after week 1 telling myself, "There is no way I can keep up anymore…"...
 
-          I knew `}<em>I needed a better approach</em>{` if I wanted to do well without repeating last year&apos;s struggles.
+          I knew `}<em>I needed a better approach</em>{` if I wanted to do well without repeating last year's struggles.
 
-          Over the next few years, I dove into thousands of research papers on learning, constantly building on the techniques I&apos;d picked up from medicine.
+          Over the next few years, I dove into thousands of research papers on learning, constantly building on the techniques I'd picked up from medicine.
 
           Eventually, I was confident enough to teach what I had refined to the students I tutored, and it worked!
 
-          This obsession led me back to university, where I completed a Master&apos;s in Education `}<strong>scoring the highest grade in every paper</strong>{` and was awarded the Dean&apos;s award for the top graduating student in the program.
+          This obsession led me back to university, where I completed a Master's in Education `}<strong>scoring the highest grade in every paper</strong>{` and was awarded the Dean's award for the top graduating student in the program.
 
           `}<em>And I only studied a few hours a day for 6 weeks…</em>{`
 
@@ -51,7 +51,7 @@ const experts = [
   },
   {
     name: "Scott H. Young",
-    role: "Famous for Teaching himself MIT&apos;s 4 year Computer Science curriculum in one year and learning Four languages in one year",
+    role: "Famous for Teaching himself MIT's 4 year Computer Science curriculum in one year and learning Four languages in one year",
     image: "https://6s32vsspft6xcd13.public.blob.vercel-storage.com/scott-1QbMS1iYXPaiQdxQl6Lsv6QGAu2sGc.jpg",
     description: (
       <>
