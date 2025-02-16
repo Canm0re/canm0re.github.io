@@ -86,7 +86,7 @@ export function Pricing() {
                     </ul>
                     <div className="rounded-md shadow">
                       <a
-                        href="https://whop.com/nord-skool/"
+                        href="https://whop.com/checkout/plan_ARROLLs0buPS1/"
                         className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
                         aria-describedby={tier.name}
                       >
